@@ -37,7 +37,6 @@ elif operand == '-':
 elif operand == '*':
     operation = "Multipication"
     result = multiply(x, y)
-elif operand == '/':
     operation = "Division"
     result = divide(x, y)
 elif operand == '%':
