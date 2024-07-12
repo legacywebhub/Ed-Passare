@@ -1,4 +1,4 @@
 # VARIABLES
-greetings = "Hello Mr Paulson"
+greetings = "Hello World"
 
 print(greetings)

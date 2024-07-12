@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Define the path to your CSV file
-csv_file_path = 'data/sample.csv'
+csv_file_path = 'sample.csv'
 
 # Creating a sample CSV file (for demonstration purposes)
 data = {

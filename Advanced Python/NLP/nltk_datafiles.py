@@ -37,4 +37,3 @@ negative_ids = movie_reviews.fileids('neg')
 # 5) Reuters - A collection of news articles used for topic classification and text categorization tasks.
 from nltk.corpus import reuters
 print(reuters.fileids()[:10])
-
