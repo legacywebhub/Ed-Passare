@@ -1,7 +1,10 @@
-import xml.etree.ElementTree as ET
+import os, xml.etree.ElementTree as ET
 
-# Define the path to your XML file
-xml_file_path = 'data/sample.xml'
+# Get the directory of the current script
+script_folder = os.path.dirname(os.path.abspath(__file__))
+
+# Define the path to your XML file in the same directory as the script
+xml_file_path = os.path.join(script_folder, 'sample.xml')
 
 # Create sample XML data
 root = ET.Element("Friends")

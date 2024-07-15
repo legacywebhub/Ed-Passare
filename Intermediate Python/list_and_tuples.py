@@ -2,24 +2,42 @@
 
 '''A list is a collection where you can keep many items together'''
 
-# Creating a list of toys
-toys = ['ball', 'car', 'doll', 'blocks']
+# Creating a list of marvel characters
+my_favorite_marvel_characters = ['spiderman', 'hulk', 'panther', 'dr. strange']
 
 '''You can do lots of things with lists, like adding new toys or taking some out.'''
-print(toys)
+#print(my_favorite_marvel_characters)
 
-# Adding a new toy to the list
-toys.append('teddy bear')
+# Adding a new character to the list
+#my_favorite_marvel_characters.append('loki')
 
-print(toys)
+#print(my_favorite_marvel_characters)
 
-# Removing a toy from the list
-toys.remove('car')
+# Removing a character from the list
+#my_favorite_marvel_characters.remove('hulk')
 
-print(toys)
+# Printing all characters in the list
+#print(my_favorite_marvel_characters)
 
-# Printing all toys in the list
-#print(toys)
+# Fetching an item at an index
+my_best_character = my_favorite_marvel_characters[0]
+
+print(my_best_character)
+
+# Fetching my favourite characters
+my_best_best_characters = my_favorite_marvel_characters[0:3]
+
+print(my_best_best_characters)
+
+
+print(len(my_favorite_marvel_characters))
+
+
+dave_favourite_marvel_characters = my_favorite_marvel_characters.copy()
+
+print(dave_favourite_marvel_characters)
+
+
 
 
 

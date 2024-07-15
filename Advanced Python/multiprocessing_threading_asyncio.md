@@ -17,7 +17,9 @@ import time
 
 def task(name):
     print(f"Task {name} started")
-    time.sleep(2)  # Simulate a task taking some time
+    for x in range(5):
+        print(x)
+        time.sleep(2)  # Simulate a task taking some time
     print(f"Task {name} finished")
 
 if __name__ == "__main__":
