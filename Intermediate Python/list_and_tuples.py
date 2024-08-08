@@ -3,39 +3,41 @@
 '''A list is a collection where you can keep many items together'''
 
 # Creating a list of marvel characters
-my_favorite_marvel_characters = ['spiderman', 'hulk', 'panther', 'dr. strange']
+my_items = ['spiderman', 'hulk', 'panther', 'dr. strange', True, 1.23, [1, 2, 3]]
 
-'''You can do lots of things with lists, like adding new toys or taking some out.'''
-#print(my_favorite_marvel_characters)
+#print(my_items)
+
+'''You can do lots of things with lists, like adding new items or taking some out.'''
+#print(my_items)
 
 # Adding a new character to the list
-#my_favorite_marvel_characters.append('loki')
+#my_items.append('loki')
 
-#print(my_favorite_marvel_characters)
+#print(my_items)
 
 # Removing a character from the list
-#my_favorite_marvel_characters.remove('hulk')
+#my_items.remove('hulk')
 
 # Printing all characters in the list
-#print(my_favorite_marvel_characters)
+#print(my_items)
 
 # Fetching an item at an index
-my_best_character = my_favorite_marvel_characters[0]
+my_best_character = my_items[0]
 
-print(my_best_character)
+#print(my_best_character)
 
 # Fetching my favourite characters
-my_best_best_characters = my_favorite_marvel_characters[0:3]
+my_best_best_characters = my_items[0:3]
 
-print(my_best_best_characters)
-
-
-print(len(my_favorite_marvel_characters))
+#print(my_best_best_characters)
 
 
-dave_favourite_marvel_characters = my_favorite_marvel_characters.copy()
+#print(len(my_items))
 
-print(dave_favourite_marvel_characters)
+
+dave_favourite_marvel_characters = my_items.copy()
+
+#print(dave_favourite_marvel_characters)
 
 
 
@@ -49,9 +51,8 @@ print(dave_favourite_marvel_characters)
 socks = ('blue', 'red', 'green', "pink")
 
 # Accessing items in a tuple
-first_sock = socks[0]
-second_sock = socks[1]
+# first_sock = socks[0]
+# second_sock = socks[1]
 
 # Printing the socks
-#print("First sock:", first_sock)
-#print("Second sock:", second_sock)
+print("First sock:", socks[0])

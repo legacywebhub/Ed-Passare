@@ -1,5 +1,5 @@
 '''
-    Conditional statement are statements that help the computer make decisions. So a condition can either True or False
+    Conditional statement are statements that help the computer make decisions. So a condition/conditional expression can either return True or False only after evaluated.
 '''
 
 favourite_superhero = "Aquaman"
